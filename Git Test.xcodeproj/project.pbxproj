@@ -21,6 +21,7 @@
 		3C027AB519479104003BC75C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C027A9719479104003BC75C /* UIKit.framework */; };
 		3C027ABD19479104003BC75C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C027ABB19479104003BC75C /* InfoPlist.strings */; };
 		3C027ABF19479104003BC75C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C027ABE19479104003BC75C /* Git_TestTests.m */; };
+		3CAF95C31947961900CC8221 /* mbfTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF95C21947961900CC8221 /* mbfTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3C027ABA19479104003BC75C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3C027ABC19479104003BC75C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C027ABE19479104003BC75C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3CAF95C11947961900CC8221 /* mbfTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbfTest.h; sourceTree = "<group>"; };
+		3CAF95C21947961900CC8221 /* mbfTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mbfTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				3C027AA819479104003BC75C /* mbfViewController.h */,
 				3C027AA919479104003BC75C /* mbfViewController.m */,
 				3C027AAB19479104003BC75C /* Images.xcassets */,
+				3CAF95C11947961900CC8221 /* mbfTest.h */,
+				3CAF95C21947961900CC8221 /* mbfTest.m */,
 				3C027A9A19479104003BC75C /* Supporting Files */,
 			);
 			path = "Git Test";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C027AAA19479104003BC75C /* mbfViewController.m in Sources */,
+				3CAF95C31947961900CC8221 /* mbfTest.m in Sources */,
 				3C027AA419479104003BC75C /* mbfAppDelegate.m in Sources */,
 				3C027AA019479104003BC75C /* main.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				3C027AC419479104003BC75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C027AC519479104003BC75C /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				3C027AC719479104003BC75C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
